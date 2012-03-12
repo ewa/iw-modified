@@ -1,3 +1,12 @@
+------------------------------------------------------------------------
+  This is a FORK of iw to backport a specific feature (setting the 
+  multicast rate) to the version currently used in Ubuntu Oneiric. 
+  Unless that's what you want, you should look at the upstream version.
+
+  -Eric Anderson <andersoe@ece.cmu.edu>
+
+  The original README follows:
+------------------------------------------------------------------------
 
 This is 'iw', a tool to use nl80211.
 
