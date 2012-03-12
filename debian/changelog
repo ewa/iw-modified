@@ -1,7 +1,7 @@
-iw (0.9.19~ubuntu~ewa) oneiric; urgency=low
+iw (0.9.19~ubuntu2~ewa) oneiric; urgency=low
   * Updated to Eric Anderson's 0.9.19-ewa
 
- -- Eric Anderson <andersoe@ece.cmu.edu> Mon, 12 Mar 2012 13:51:36 -0400
+ -- Eric Anderson <andersoe@ece.cmu.edu>  Mon, 12 Mar 2012 13:51:36 -0400
 
 iw (0.9.19~ubuntu1) lucid; urgency=low
 
