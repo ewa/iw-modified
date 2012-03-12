@@ -1,0 +1,54 @@
+iw (0.9.19~ubuntu1) lucid; urgency=low
+
+  * Updated to upstream 0.9.19
+    sid unstable is still at 0.9.18 in iw/trunk
+
+ -- Tim Gardner <tim.gardner@canonical.com>  Wed, 20 Jan 2010 09:58:50 -0700
+
+iw (0.9.14-1) unstable; urgency=low
+
+  * New upstream release.
+  * Use minimal dh-centric debian/rules.
+
+ -- Kel Modderman <kel@otaku42.de>  Mon, 18 May 2009 05:41:31 +1000
+
+iw (0.9.11-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update Standards-Version to 3.8.1. No other changes required.
+
+ -- Kel Modderman <kel@otaku42.de>  Sat, 28 Mar 2009 03:17:01 +1000
+
+iw (0.9.9-2) unstable; urgency=low
+
+  * Change Priority to extra from optional to avoid override disparity.
+
+ -- Kel Modderman <kel@otaku42.de>  Mon, 09 Feb 2009 02:19:15 +1000
+
+iw (0.9.9-1) unstable; urgency=low
+
+  [ Kel Modderman ]
+  * New upstream release.
+  * Update debian/copyright for change from BSD-3 -> ISC license.
+  * Add ${misc:Depends} to dependency field, as debhelper uses it as
+    required.
+  * Add debian/watch.
+  * Versioned conflict with aircrack-ng (<< 1:1.0~rc2-1), which shipped and
+    own copy of iw until that version. (Closes: #514344)
+  * Target upload to unstable now that a versioned conflict against
+    aircrack-ng is in place.
+
+  [ Loic Minier ]
+  * Let install-stamp depend on build-stamp instead of install depending on
+    install-stamp and build.
+  * List build, clean, install, binary-arch, binary-indep and binary in
+    .PHONY.
+  * Use $@ instead of explicit build-stamp/install-stamp in debian/rules.
+
+ -- Kel Modderman <kel@otaku42.de>  Sun, 08 Feb 2009 21:57:34 +1000
+
+iw (0.9.6-1) experimental; urgency=low
+
+  * Initial release. (Closes: #499537)
+
+ -- Kel Modderman <kel@otaku42.de>  Thu, 30 Oct 2008 23:17:16 +1000
